@@ -89,10 +89,7 @@ for (var i = 0; i < ani.length; i++) {
 const [black_and_white, black, pink]='cow sheep pig'.split(' ');
 const [red, orange,yellow,green,blue,indigo,violet]=colors;
 let [r, o,y,g,b,i,v]=colors;
-// 6. But wait! Indigo is now feeling *super* left out. Let's only assign indigo using indg.
 let [r, o,y,g,b,indg,v]=colors;
-// Objects
-// 7. Use destructuring to assign all appropriate variables using the keys as the variable names
 let { name, color,song,job,partner } = muppet;
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
 let {song_2,song_4}=k_muppet.k_album.the_muppet_movie;
