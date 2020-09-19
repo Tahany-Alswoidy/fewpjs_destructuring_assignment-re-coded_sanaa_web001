@@ -89,7 +89,7 @@ for (var i = 0; i < ani.length; i++) {
 const [black_and_white, black, pink]='cow sheep pig'.split(' ');
 const [red, orange,yellow,green,blue,indigo,violet]=colors;
 let [r, o,y,g,b,i,v]=colors;
-let [r, o,y,g,b,indg,v]=colors;
+let [, ,,,,indg,]=colors;
 let { name, color,song,job,partner } = muppet;
 // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
 let {song_2,song_4}=k_muppet.k_album.the_muppet_movie;
