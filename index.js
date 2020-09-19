@@ -54,9 +54,9 @@
 // // 8. Use destructuring to assign songs 2 and 4, and Kermit's job and partner
 // const {song_2,song_4}=k_muppet.k_alb.the_muppet_movie;
 // const{k_job, k_partner}= k_muppet;
-const farmAnimals = 'cow horse sheep pig chicken'
-const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
-const muppet = {
+let farmAnimals = 'cow horse sheep pig chicken'
+let colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+let muppet = {
   name: 'Kermit',
   color: 'green',
   song: 'The Rainbow Connection',
